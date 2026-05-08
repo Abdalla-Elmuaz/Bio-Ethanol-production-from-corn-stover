@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001a2e"/>
+      <stop offset="50%" stop-color="#002040"/>
+      <stop offset="100%" stop-color="#001428"/>
+    </linearGradient>
+    <radialGradient id="glw6" cx="50%" cy="60%" r="60%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg6)"/>
+  <ellipse cx="700" cy="600" rx="600" ry="300" fill="url(#glw6)"/>
+  <!-- Wave layers -->
+  <path d="M0,600 Q175,540 350,600 Q525,660 700,600 Q875,540 1050,600 Q1225,660 1400,600 L1400,900 L0,900 Z"
+        fill="#0ea5e9" opacity="0.06"/>
+  <path d="M0,650 Q175,590 350,650 Q525,710 700,650 Q875,590 1050,650 Q1225,710 1400,650 L1400,900 L0,900 Z"
+        fill="#0ea5e9" opacity="0.05"/>
+  <path d="M0,700 Q175,650 350,700 Q525,750 700,700 Q875,650 1050,700 Q1225,750 1400,700 L1400,900 L0,900 Z"
+        fill="#38bdf8" opacity="0.04"/>
+  <!-- Water drop shapes -->
+  <path d="M200,100 Q200,50 230,80 Q260,110 230,160 Q200,190 170,160 Q140,130 170,80 Q200,50 200,100Z"
+        fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.2"/>
+  <path d="M1200,150 Q1200,90 1235,125 Q1270,160 1235,220 Q1200,260 1165,220 Q1130,180 1165,125 Q1200,90 1200,150Z"
+        fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.15"/>
+  <!-- Ripple circles -->
+  <circle cx="700" cy="450" r="80"  fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.12"/>
+  <circle cx="700" cy="450" r="140" fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.08"/>
+  <circle cx="700" cy="450" r="200" fill="none" stroke="#0ea5e9" stroke-width="1" opacity="0.05"/>
+  <circle cx="700" cy="450" r="260" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.04"/>
+  <!-- Water molecule -->
+  <circle cx="700" cy="300" r="20" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="660" cy="340" r="14" fill="none" stroke="#7dd3fc" stroke-width="1"   opacity="0.25"/>
+  <circle cx="740" cy="340" r="14" fill="none" stroke="#7dd3fc" stroke-width="1"   opacity="0.25"/>
+  <line x1="682" y1="316" x2="668" y2="328" stroke="#38bdf8" stroke-width="1.5" opacity="0.3"/>
+  <line x1="718" y1="316" x2="732" y2="328" stroke="#38bdf8" stroke-width="1.5" opacity="0.3"/>
+  <!-- Horizontal flow lines -->
+  <g stroke="#0ea5e9" stroke-width="0.5" opacity="0.06">
+    <path d="M0,200 Q350,180 700,200 Q1050,220 1400,200"/>
+    <path d="M0,350 Q350,330 700,350 Q1050,370 1400,350"/>
+    <path d="M0,500 Q350,480 700,500 Q1050,520 1400,500"/>
+  </g>
+</svg>

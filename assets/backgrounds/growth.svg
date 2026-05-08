@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="bg7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f1a05"/>
+      <stop offset="40%" stop-color="#0a1500"/>
+      <stop offset="100%" stop-color="#050d00"/>
+    </linearGradient>
+    <radialGradient id="sun7" cx="50%" cy="55%" r="35%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg7)"/>
+  <ellipse cx="700" cy="500" rx="400" ry="300" fill="url(#sun7)"/>
+  <!-- Growth curve (exponential) -->
+  <path d="M100,800 Q300,790 500,750 Q700,700 900,600 Q1100,470 1300,200"
+        fill="none" stroke="#84cc16" stroke-width="3" opacity="0.35"/>
+  <!-- Area under curve -->
+  <path d="M100,800 Q300,790 500,750 Q700,700 900,600 Q1100,470 1300,200 L1300,900 L100,900 Z"
+        fill="#84cc16" opacity="0.04"/>
+  <!-- Data points on curve -->
+  <g fill="#a3e635" opacity="0.4">
+    <circle cx="300"  cy="792" r="5"/>
+    <circle cx="500"  cy="750" r="5"/>
+    <circle cx="700"  cy="700" r="5"/>
+    <circle cx="900"  cy="600" r="6"/>
+    <circle cx="1100" cy="470" r="6"/>
+    <circle cx="1300" cy="200" r="7"/>
+  </g>
+  <!-- Plant/sprout silhouette -->
+  <path d="M700,900 L700,500" stroke="#4ade80" stroke-width="2" opacity="0.15"/>
+  <path d="M700,650 Q600,580 550,500 Q620,530 700,600" fill="#16a34a" opacity="0.1"/>
+  <path d="M700,600 Q800,530 850,450 Q780,480 700,550" fill="#16a34a" opacity="0.1"/>
+  <path d="M700,550 Q620,490 580,410 Q650,440 700,510" fill="#22c55e" opacity="0.08"/>
+  <!-- Year markers X axis -->
+  <g fill="#84cc16" opacity="0.15" font-family="monospace" font-size="13">
+    <text x="280"  y="870">2000</text>
+    <text x="480"  y="870">2005</text>
+    <text x="680"  y="870">2010</text>
+    <text x="880"  y="870">2015</text>
+    <text x="1080" y="870">2020</text>
+    <text x="1280" y="870">2024</text>
+  </g>
+  <!-- Arrow up right -->
+  <path d="M1280,220 L1320,160 L1340,210" fill="none" stroke="#a3e635" stroke-width="2" opacity="0.3"/>
+  <line x1="1320" y1="160" x2="1320" y2="280" stroke="#a3e635" stroke-width="1" stroke-dasharray="5,8" opacity="0.2"/>
+</svg>

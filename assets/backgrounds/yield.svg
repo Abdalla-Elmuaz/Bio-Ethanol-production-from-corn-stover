@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <radialGradient id="bg4" cx="40%" cy="60%" r="80%">
+      <stop offset="0%" stop-color="#2d1200"/>
+      <stop offset="60%" stop-color="#1a0a00"/>
+      <stop offset="100%" stop-color="#0d0500"/>
+    </radialGradient>
+    <radialGradient id="glow4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#bg4)"/>
+  <ellipse cx="700" cy="500" rx="500" ry="350" fill="url(#glow4)"/>
+  <!-- Flask/beaker silhouette -->
+  <path d="M580,100 L580,400 L450,700 L950,700 L820,400 L820,100 Z"
+        fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.12"/>
+  <path d="M580,100 L820,100" stroke="#f59e0b" stroke-width="2" opacity="0.2"/>
+  <!-- Liquid inside flask -->
+  <path d="M490,580 Q700,520 910,580 L950,700 L450,700 Z"
+        fill="#f59e0b" opacity="0.06"/>
+  <!-- Bubbles -->
+  <circle cx="600" cy="550" r="15" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.2"/>
+  <circle cx="650" cy="500" r="10" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.15"/>
+  <circle cx="700" cy="470" r="18" fill="none" stroke="#fcd34d" stroke-width="1" opacity="0.2"/>
+  <circle cx="750" cy="520" r="12" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.18"/>
+  <circle cx="780" cy="560" r="8"  fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.12"/>
+  <!-- Fermenter tower left -->
+  <rect x="80" y="200" width="120" height="500" rx="60" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.1"/>
+  <line x1="140" y1="300" x2="140" y2="600" stroke="#fbbf24" stroke-width="0.5" stroke-dasharray="5,10" opacity="0.15"/>
+  <!-- Temperature curve top right -->
+  <path d="M1000,100 Q1050,200 1020,300 Q990,400 1050,500 Q1100,600 1070,700"
+        fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.2"/>
+  <!-- Corn/wheat dots scattered -->
+  <g fill="#fbbf24" opacity="0.08">
+    <ellipse cx="300" cy="750" rx="30" ry="12"/><ellipse cx="400" cy="800" rx="25" ry="10"/>
+    <ellipse cx="1000" cy="780" rx="35" ry="13"/><ellipse cx="1100" cy="750" rx="28" ry="11"/>
+    <ellipse cx="1200" cy="800" rx="22" ry="9"/>
+  </g>
+</svg>
